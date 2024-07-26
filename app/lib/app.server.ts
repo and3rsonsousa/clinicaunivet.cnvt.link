@@ -1,4 +1,4 @@
-import { AppDataType } from "~/types";
+import { type AppDataType } from "~/types";
 
 export function getAppData() {
 	let AppDataType: AppDataType = {
@@ -23,7 +23,7 @@ export function getAppData() {
 				className: "text-2xl text-gray-800",
 			},
 			//texto que fica logo abaixo ao logo
-			excerpt: `<strong>SEG A SEX</strong>: 8h às 18h <br> <strong>SÁB</strong>: 8h às 14h`,
+			excerpt: `<strong>Segunda a Sexta</strong>: 8h às 18h <br> <strong>Sábado</strong>: 8h às 14h`,
 			// css class for the whole header,
 			// className: "",
 		},
@@ -36,6 +36,11 @@ export function getAppData() {
 		// },
 		// },
 		links: [
+			{
+				name: "Pesquisa de Satisfação",
+				url: "pesquisa",
+				redirect: "https://forms.gle/Fa3jDb42fLDiUtbk6",
+			},
 			{
 				name: "Marcar Consulta",
 				url: "marcar-consulta",
